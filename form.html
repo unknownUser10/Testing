@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html  lang="en-US">
+<head>
+	<title>Enrollment Form</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="icon" href="elvnhs.png">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body style="background-color: gray;">
+	<div class="header">
+		<ul>
+    <li ><a href="index.htm"><i class="fa fa-home"></i>Home</a></li>
+    <li ><a href="#"><i class="fa fa-user"></i>About Us</a></li>
+    <li ><a href="#"><i class="fa fa-clone"></i>Courses</a></li>
+    <li class="active"><a href="#"><i class="fa fa-clone"></i>Form</a></li>
+    <li ><a href="contact.html"><i class="fa fa-phone"></i>Contact</a></li>
+    </ul>
+	</div>
+
+	<div class="linehead"></div>
+	
+	<div id="container">
+		<form method="post" class="enroll" action="">
+			
+			<div class="headdiv">
+					<a href="index.htm"><img src="images/elvnhs.png" class="elvnhslogo" alt="Engracia L. Valdomar National High School" title="Engracia L. Valdomar National High School">
+					<a href="https://www.deped.gov.ph/"><img src="images/deped.png" class="depedlogo" alt="Department of Education" title="Department of Education"></a>
+					
+					<p style="margin: 0px 265px; padding-top: 20px; font-family: arial; color: #ffffff">Republic of the Philippines</p>
+					<p style="margin: 0px 317px; padding-top: 0px; color: #ffffff">Region XII</p>	
+					<h3 class="heading" style="padding-top: 0px; color: #ffffff"><strong></strong>BASIC EDUCATION ENROLLMENT FORM</h3>
+					<p style="margin: 0px 200px; color: #ffffff ">Engracia L. Valdomar National High School</p>
+					<p style="margin: 0px 228px; color: #ffffff">Brgy. Mabuhay, General Santos City</p>
+		
+					<br>
+				</div>
+
+					<br>
+					<label style="padding-left: 330px;">Chose the appropriate button only:</label><br>
+			
+					<label>School Year:</label>
+					<input type="number" name="date" style="width: 70px;"><label> - </label> 
+					<input type="number" name="date" style="width: 70px;">
+					<label style="padding: 40px;"></label>
+
+					<input type="radio" name="lrn" value="nolrn">&nbsp;No LRN &nbsp;
+					<input type="radio" name="lrn" value="withlrn">&nbsp;With LRN &nbsp;
+					<input type="radio" name="lrn" value="returning">&nbsp;Returning (Balik Aral) <br><br>
+			
+					<p><strong>INSTRUCTIONS: </strong><br>
+					<em>Provide legibly all information required.  Click REGISTER after accomplishing the fill-up.</p>
+					</em>
+					<br>
+					<label class="sti"><strong>STUDENT INFORMATION</strong></label>
+
+				<div class="division1" style="padding-top: 2px;"></div>
+					<br>
+
+					<label>PSA Birth Certificate No. </label>
+					<input type="number" name="psa" style="padding: 3px;">
+					<label>Learner Reference No. </label>
+					<input type="number" name="LRN" style="padding: 3px;">
+					<br><br>
+				
+				<div class="division1"></div><br>
+
+					<label style="padding-right: 4px;">LAST NAME </label>
+					<input type="text" name="lastname" placeholder="lastname" style="width: 112px; padding: 3px;">
+					<label span style="padding-left: 10px;">FIRST NAME</label>
+					<input  type="text" name="fname" placeholder="firstname" style="width: 112px; padding: 3px;">
+				
+					<label style="padding-left: 10px;">MIDDLE NAME </label>
+					<input type="text" name="midname" placeholder="middlename" style="width: 112px; padding: 3px;"><br><br>
+					
+					<label>EXTENSION&nbsp;&nbsp;</label>
+					<input type="text" name="middlename" placeholder="ex. Jr." style="width: 50px; padding: 3px;"><br><br>
+					
+				<hr color="black" style="width: 720px; margin-left: 0;"><br>
+
+					<label>DATE OF BIRTH &nbsp;&nbsp;&nbsp;</label>
+					<input type="date" name="date" style="padding: 3px;">
+					<label style="padding: 10px;">AGE</label>
+					<input type="number" name="age" style="width: 60px; padding: 3px;" placeholder="age">
+				
+					<label style="padding-left: 25px;"><strong>SEX:&nbsp;&nbsp;</strong></label>
+					<input type="radio" name="gender" value="male"> Male &nbsp;
+					<input type="radio" name="gender" value="female"> Female
+					<br><br>
+
+					<p>Belonging to any Indigenous People (IP) Community / Indigenous Cultural Community?&nbsp;&nbsp;</p>
+					<input type="radio" name="Indigenous">YES &nbsp;
+					<input type="radio" name="Indigenous">NO
+					<br>If Yes, Please specify:
+					<input list="cultures" type="text" style="padding: 3px;">
+					<datalist id="cultures">
+						<option value="Tausug"/>
+						<option value="Waray"/>
+						<option value="Igurot"/>
+						<option value="Blaan"/>
+						<option value="Badjao"/>
+						<option value="Bagobo"/>
+						<option value="Cebuano"/>
+						<option value="Ifugao"/>
+						<option value="T'boli"/>
+					</datalist>
+
+					<label style="padding-left: 50px;">Mother Tongue
+					<input list="cultures" type="text" style="padding: 3px;" placeholder="mother tongue">
+						<datalist id="cultures">
+							<option value="Arabic"/>
+							<option value="Bol-anon"/>
+							<option value="Blaan"/>
+							<option value="Cebuano"/>
+							<option value="Bisaya"/>
+							<option value="Chinese"/>
+							<option value="English"/>
+							<option value="Filipino"/>
+							<option value="Ilocano"/>
+							<option value="Maguindanao"/>
+							<option value="Manobo"/>
+							<option value="Maranao"/>
+							<option value="Spanish"/>
+							<option value="Sinurigaonon"/>
+							<option value="Tausug"/>
+							<option value="Ilonggo"/>
+							<option value="Waray"/>
+							<option value="Ybanag"/>
+						</datalist></label>
+						<br><br>
+
+					<div class="division1" style="color: #ffffff"><strong>ADDRESS</strong></div>
+		
+					<label>House Number and Street</label><br>
+					 <input type="text" name="address" style="width: 710px; padding: 3px;"><br>
+
+					<label>Barangay</label><br>
+					<input type="text" name="barangay" style="width: 710px; padding: 3px;"><br>
+
+					<label>City/Municipality/Province/Country</label><br>
+					<input type="text" name="city" style="width: 500px; padding: 3px;">
+
+					<label style="padding-right: 25px;"></label>
+
+					<label>Zip Code</label>
+					<input list="zip" type="text" style="width: 102px; padding: 3px;">
+					<datalist id="zip">
+						<option value="09500"/>
+					</datalist>
+					<br><br></label>
+
+					<div class="division1" style="color: #ffffff"><strong>PARENT'S/GUARDIAN'S INFORMATION</strong></div><br>
+					<label>Father's Name (Last, First, Middle)</label>
+					<label style="padding-left: 130px;">Mother's Name (Last, First, Middle)</label>
+					
+					<input type="text" name="fname" placeholder="fathers name" style="width: 330px; padding: 3px;">
+					<label style="padding: 5px;"></label>
+					<input type="text" name="mname" placeholder="mothers name" style="width: 357px; padding: 3px;"><br>
+					
+					<label>Guardian's Name (Last, First, Middle)</label><br>
+					<input type="text" name="gname" placeholder="guardian's name" style="width: 330px; padding: 3px;"><br><br>
+					<label>Telephone No. </label>
+					<input list="telephone" type="text"style="width: 110px; padding: 3px;">
+					<datalist id="telephone">
+						<option value="n/a"/>
+					</datalist>
+					<label style="padding-left: 10px;"></label>
+					<label>Cellphone No. </label>
+					<input type="number" name="cellphone" placeholder="09**********" style="width: 110px; padding: 3px;">
+					<label style="padding-left: 6px;">Religion: </label>
+					<input list="religion" type="text" name="religion" placeholder="religion" style="width: 165px; padding: 3px;">
+					<datalist id="religion">
+						<option value="Roman Catholic"></option>
+						<option value="Protestant"></option>
+						<option value="Muslim"></option>
+						<option value="Born Again"></option>
+						<option value="Evangelicals (PCEC)"></option>
+						<option value="Iglesia Ni Cristo"></option>
+						<option value="Non-Catholic and Protestant (NCCP)"></option>
+						<option value="Aglipayan"></option>
+						<option value="Seventh-day Adventist"></option>
+						<option value="Bible Baptist Church"></option>
+						<option value="Jehovah's Witnesses"></option>
+						<option value="Church of Christ"></option>
+						<option value="Jesus Is Lord Church Worldwide"></option>
+						<option value="United Pentecostal Church (Philippines) Inc."></option>
+						<option value="Unión Espiritista Cristiana de Filipinas, Inc."></option>
+						<option value="The Church of Jesus Christ of Latter-day Saints"></option>
+						<option value="BAssociation of Fundamental Baptist Churches in the Philippines	"></option>
+						<option value="Evangelical Christian Outreach Foundation"></option>
+						<option value="Convention of the Philippine Baptist Church"></option>
+						<option value="Crusaders of the Divine Church of Christ Inc."></option>
+						<option value="Lutheran Church in the Philippines"></option>
+						<option value="Iglesia sa Dios Espiritu Santo Inc."></option>
+						<option value="Philippine Benevolent Missionaries Association"></option>
+						<option value="Faith Tabernacle Church (Living Rock Ministries)"></option>
+					</datalist>
+					<br><br>
+					
+					<div class="division1"><strong style="padding-left: 90px; color: #ffffff">For Returning Learners (Balik Aral) and Those Who Shall Transfer/Move In</strong></div><br>
+
+					<label>Last Grade Level Completed</label>
+					<input list="glevel" type="text" style="width: 100px;padding: 3px;" placeholder="grade ?">
+					<datalist id="glevel">
+						<option value="Grade 6"/>
+						<option value="Grade 7"/>
+						<option value="Grade 8"/>
+						<option value="Grade 9"/>
+						<option value="Grade 10"/>
+						<option value="Grade 11"/>
+					</datalist>
+					<label style="padding-right: 32px;"></label>
+					<label>Last School Year Completed</label>
+					<input type="text" name="lastS.Y." style="width: 150px; padding: 3px;" placeholder="20** - 20**"><br><br>
+					
+					<label>School Name</label>
+					<input type="text" name="schoolname" style="width: 330px; padding: 3px;">
+					<label style="padding-right: 37px;"></label>
+					<label>School ID</label>
+					<input type="number" name="schoolId" style="width: 155px; padding: 3px;"><br><br>
+					<label>School Address</label>
+					<input type="text" name="schooladdress" style="width: 594px; padding: 3px;"><br><br>
+
+
+					<div class="division1"><strong style="padding-left: 230px; color: #ffffff">For Learners in Senior High School</strong></div><br>
+
+					<label>Semester</label>
+					<label style="padding-right: 15px;"></label>
+					<input type="radio" name="sem"> 1st Sem
+					<label style="padding-right: 15px;"></label>
+					<input type="radio" name="sem"> 2nd Sem <br><br>
+					<label>Track</label>
+					<input type="text" name="track" style="width: 170px; padding: 3px;">
+					<label style="padding-right: 15px;"></label>
+					<label>Strand (if any)</label>
+					<input type="text" name="strand" style="width: 170px; padding: 3px;"> <br><br>
+
+					<p>
+						<label style="padding-left: 85px;"></label>I hereby certify that the above information given are true and correct  to the best of my knowledge <br> and I allow the Department of Education to use my child’s details to create and/or update his/her learner profile <br> in the Learner Information System. The information herein shall be treated as confidential in compliance with <br> the Data Privacy Act of 2012.
+					</p><br><br>
+					<label style="padding-right: 490px;"></label>
+					<input type="date" name="date" style="width: 130px;"><br>
+					<label style="padding-left: 535px;">Date</label><br><br><br><br>
+
+
+					<hr color="gray;" style="width: 720px; margin-left: 0;"><br>
+					<label>Notice! You are required to bring the requirements at the school.</label>
+
+			</form>
+	</div>
+
+	<div class="footer"></div>
+
+</body>
+</html>
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
