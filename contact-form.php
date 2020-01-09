@@ -23,7 +23,7 @@ $headers .= "Reply To: $visitor_email \r\n";
 
 mail($to,&email_subject,$email_body,$headers);
 
-header("Location:https://unknownuser10.github.io/Test/?fbclid=IwAR3tYxER_c25KG-R93Wk0ENnAO8nw6oxiTuoTO9rlPY4MvHxd_ssk5x2Q7E");
+header("Location:https://unknownuser10.github.io/Testing/);
 
 ?>
 
